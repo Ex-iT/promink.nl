@@ -1,3 +1,4 @@
+# Commonly ignored files and folders
 Thumbs.db
 .DS_Store
 node_modules/
