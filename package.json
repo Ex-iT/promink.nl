@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Promink Seniorenverhuizing",
   "scripts": {
-    "start": "NODE_ENV=production && echo 'TODO: Create production task.'",
+    "start": "NODE_ENV=production && npm run build",
     "prebuild": "rimraf './dist' && mkdir './dist'",
     "build": "run-s build:*",
     "build:assets": "cpx './src/**/*.{txt,ico,json}' ./dist/",
