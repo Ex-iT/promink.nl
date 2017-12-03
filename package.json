@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/Ex-iT/promink.nl/issues"
   },
-  "homepage": "https://github.com/Ex-iT/promink.nl#readme",
+  "homepage": "https://promink-nl.netlify.com/",
   "engines": {
     "node": ">= 8.6.0",
     "npm": ">= 3.0.0"
