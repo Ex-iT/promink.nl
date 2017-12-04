@@ -1,7 +1,7 @@
 {% from "../navigation/navigation.html" import navigation %}
 {% from "../contact/contact.html" import contact %}
 
-<section class="app-navigation">
+<section id="app-navigation" class="app-navigation">
 	{{ navigation(navigationItems, page.title) }}
 	{{ contact(contactInfo, baseUrl) }}
 </section>

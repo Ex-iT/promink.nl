@@ -3,6 +3,7 @@
 	vertical-align: top;
 	background-repeat: no-repeat;
 	background-position: 0 -51%;
+	padding-top: $default-spacing;
 
 	&.open {
 		display: block;
