@@ -11,7 +11,7 @@ const inputDir = 'src';
 const outputDir = path.join(rootDir, 'dist');
 nunjucks.configure(inputDir, { watch: false });
 
-const slugifyConfig = { 
+const slugifyConfig = {
 	lower: true,
 	remove: /[$*_+~.()'"!?\-:@]/g
 };
