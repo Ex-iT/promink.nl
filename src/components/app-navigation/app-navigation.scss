@@ -1,9 +1,24 @@
 .app-navigation {
-	display: inline-block;
+	display: none;
 	vertical-align: top;
-	background-image: url('../assets/images/navigation_background.png');
 	background-repeat: no-repeat;
 	background-position: 0 -51%;
-	padding: 45px 45px 0 110px;
-	width: 50%;
+
+	&.open {
+		display: block;
+	}
+
+	@media screen and (min-width: 715px) {
+		display: inline-block;
+		line-height: 13px;
+		padding-top: 45px;
+		padding-right: 45px;
+		width: 33%;
+	}
+
+	@media screen and (min-width: 740px) {
+		background-image: url('../assets/images/navigation_background.png');
+		padding: 45px 45px 0 110px;
+		width: 50%;
+	}
 }

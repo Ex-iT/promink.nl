@@ -1,6 +1,14 @@
 .contact {
+	display: none;
 	margin-top: 70px;
-	padding-left: 55px;
+
+	@media screen and (min-width: 715px) {
+		display: block;
+	}
+
+	@media screen and (min-width: 740px) {
+		padding-left: 55px;
+	}
 
 	.contact-image {
 		margin-bottom: $half-spacing;

@@ -18,7 +18,12 @@
 
 body {
 	font-family: $font-family;
-	font-size: $font-size-m;
+	font-size: $font-size-l;
+	line-height: 1.4;
+
+	@media screen and (min-width: 715px) {
+		font-size: $font-size-m;
+	}
 }
 
 a, a:visited {
@@ -39,15 +44,23 @@ h3 {
 }
 
 h4 {
-	font-size: $font-size-m;
+	font-size: $font-size-l;
 	color: $highlight-color;
 	font-weight: bold;
 	margin-bottom: $half-spacing;
+
+	@media screen and (min-width: 715px) {
+		font-size: $font-size-m;
+	}
 }
 
 p {
-	font-size: $font-size-m;
+	font-size: $font-size-l;
 	margin-bottom: $default-spacing;
+
+	@media screen and (min-width: 715px) {
+		font-size: $font-size-m;
+	}
 }
 
 li {
@@ -55,6 +68,16 @@ li {
 		content: '•';
 		color: $highlight-color;
 		padding-right: 5px;
+	}
+}
+
+button {
+	border: none;
+	background-color: transparent;
+	padding: 0;
+
+	&:hover {
+		cursor: pointer;
 	}
 }
 
@@ -72,18 +95,35 @@ li {
 .max-width {
 	max-width: 1170px;
 	margin: 0 auto;
+	padding: 0 $default-spacing;
+
+	@media screen and (min-width: 740px) {
+		padding: 0;
+	}
 }
 
 .main {
-	padding-bottom: calc($double-spacing * 3);
+	padding-bottom: $double-spacing;
+
+	@media screen and (min-width: 715px) {
+		padding-bottom: calc($double-spacing * 3);
+	}
 }
 
 .content {
 	display: inline-block;
 	vertical-align: top;
-	width: 50%;
-	padding-right: 45px;
+	width: 100%;
 	margin-top: 45px;
+
+	@media screen and (min-width: 715px) {
+		padding-right: 45px;
+		width: 66%;
+	}
+
+	@media screen and (min-width: 740px) {
+		width: 50%;
+	}
 
 	.body {
 		background-color: #FFFFFF;
@@ -91,5 +131,20 @@ li {
 		border: 2px solid $border-color;
 		border-radius: 5px;
 		padding: 20px;
+	}
+}
+
+.footer {
+	@media screen and (min-width: 715px) {
+		display: none;
+	}
+
+	.contact {
+		display: block;
+		margin-top: 0;
+
+		@media screen and (min-width: 715px) {
+			display: none;
+		}
 	}
 }
