@@ -1,1 +1,17 @@
-$font-color: blue;
+// Typography
+$font-family: 		Verdana, Arial, Helvetica, sans-serif;
+$font-size-s: 		10px;
+$font-size-m: 		13px;
+$font-size-l:		16px;
+
+// Colors
+$highlight-color: 	#CC0066;
+$dark-purple: 		#382F76;
+$font-color: 		#000066;
+$link-color: 		#0000FF;
+$border-color: 		#85CBF0;
+
+// Spacing
+$default-spacing: 	16px;
+$half-spacing: 		calc($default-spacing / 2);
+$double-spacing: 	calc($default-spacing * 2);

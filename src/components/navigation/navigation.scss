@@ -1,0 +1,20 @@
+.navigation {
+	border: 2px solid $border-color;
+	padding: 20px 5px 5px 52px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, .3);
+
+	li {
+		margin-bottom: $default-spacing;
+	}
+
+	.special a {
+		font-weight: bold;
+	}
+
+	.active a {
+		color: $highlight-color;
+		font-weight: bold;
+	}
+}

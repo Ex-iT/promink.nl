@@ -1,0 +1,10 @@
+{% macro navigation(pages, active) %}
+	<nav class="navigation">
+		<ol>
+			<li class="{% if not active %}active{% endif %}"><a href="/">Home</a></li>
+			{% for page in pages %}
+			<li class="{% if active === page.title %}active{% endif %}{% if page.special %} special{% endif %}"><a href="{{ page.slug }}">{{ page.title }}</a></li>
+			{% endfor %}
+		</ol>
+	</nav>
+{% endmacro %}

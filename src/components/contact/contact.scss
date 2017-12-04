@@ -1,0 +1,26 @@
+.contact {
+	margin-top: 70px;
+	padding-left: 55px;
+
+	.contact-image {
+		margin-bottom: $half-spacing;
+	}
+
+	dl, dt {
+		clear: both;
+		line-height: 1.2;
+	}
+	
+	dd, dt {
+		float: left;
+	}
+
+	dt {
+		color: $highlight-color;
+		width: 70px;
+	}
+
+	dd {
+		margin-bottom: $half-spacing;
+	}
+}

@@ -1,0 +1,13 @@
+{% extends 'views/base.html' %}
+
+{% set keywords = home.meta.keywords %}
+{% set description = home.meta.description %}
+
+{% block content -%}
+<section class="content">
+	<article class="body">
+		<h3>{{ home.title | safe }}</h3>
+		{{ home.body | safe }}
+	</article>
+</section>
+{% endblock %}

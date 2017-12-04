@@ -1,0 +1,80 @@
+header {
+	position: relative;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 470px;
+		height: 75%;
+		height: calc(100% - 16px);
+		z-index: -1;
+
+		background: #FFFFFF;
+		background: -moz-linear-gradient(left, #FFFFFF 0%, #CD498A 100%);
+		background: -webkit-linear-gradient(left, #FFFFFF 0%,#CD498A 100%);
+		background: linear-gradient(to right, #FFFFFF 0%,#CD498A 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#CD498A', GradientType=1);
+	}
+
+	&:after {
+		content: '';
+		background-color: $dark-purple;
+		position: absolute;
+		right: 0;
+		bottom: 16px;
+		width: 100%;
+		height: 10px;
+		max-width: 78%;
+		z-index: -1;
+	}
+
+	.visual {
+		background-image: url('../assets/images/navigation_background.png');
+		background-repeat: no-repeat;
+		padding-top: 40px;
+	}
+
+	.header-wrapper {
+		position: relative;
+		padding-left: 175px;
+	}
+
+	.subtitle {
+		margin-bottom: 13px;
+		position: absolute;
+		right: 125px;
+		bottom: 0;
+	}
+
+	h2 {
+		background-color: $dark-purple;
+		border-radius: 10px;
+		box-shadow: 5px 5px 10px 0px #272727;
+		color: #FFFFFF;
+		display: inline;
+		font-size: $font-size-l;
+		font-weight: bold;
+		padding: 7px 22px;
+		position: relative;
+		font-weight: normal;
+
+		&:before {
+			content: '';
+			border: 1px solid #FFFFFF;
+			border-radius: 10px;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			left: 3px;
+			right: 3px;
+		}
+	}
+
+	.anniversary-logo {
+		position: absolute;
+		top: 5px;
+		left: 335px;
+	}
+}

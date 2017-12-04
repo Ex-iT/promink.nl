@@ -1,0 +1,13 @@
+{% macro contact(contactInfo, baseUrl) %}
+	<div class="contact">
+		<img class="contact-image" src="{{ baseUrl }}assets/images/{{ contactInfo.image }}" alt="{{ contactInfo.alt }}">
+		<h4>{{ contactInfo.title }}</h4>
+		<p>{{ contactInfo.subtitle }}</p>
+		<dl>
+			{% for detail in contactInfo.details %}
+			<dt>{{ detail.label | safe }}</dt>
+			<dd>{{ detail.value | safe }}</dd>
+			{% endfor %}
+		</dl>
+	</div>
+{% endmacro %}

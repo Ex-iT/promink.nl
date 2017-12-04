@@ -1,0 +1,14 @@
+{% extends 'views/base.html' %}
+
+{% set title = page.title + ' | ' %}
+{% set keywords = page.meta.keywords %}
+{% set description = page.meta.description %}
+
+{% block content -%}
+<section class="content">
+	<article class="body">
+		<h3>{{ page.title | safe }}</h3>
+		{{ page.body | safe }}
+	</article>
+</section>
+{% endblock %}

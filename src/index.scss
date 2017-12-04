@@ -1,6 +1,12 @@
 @import './styles/reset.scss';
 @import './styles/variables.scss';
 
+// Components
+@import './components/app-header/app-header.scss';
+@import './components/app-navigation/app-navigation.scss';
+@import './components/navigation/navigation.scss';
+@import './components/contact/contact.scss';
+
 * {
 	box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
@@ -10,11 +16,80 @@
 	box-sizing: inherit;
 }
 
-h1 {
-	font-size: 24px;
-	color: $font-color;
+body {
+	font-family: $font-family;
+	font-size: $font-size-m;
+}
+
+a, a:visited {
+	color: $link-color;
+	transition: color 0.3s ease-out;
+}
+
+a:hover, a:focus {
+	color: $highlight-color;
+	transition: color 0.3s ease-out;
+}
+
+h3 {
+	font-size: $font-size-l;
+	color: $highlight-color;
+	font-weight: bold;
+	margin-bottom: $default-spacing;
+}
+
+h4 {
+	font-size: $font-size-m;
+	color: $highlight-color;
+	font-weight: bold;
+	margin-bottom: $half-spacing;
 }
 
 p {
-	font-size: 16px;
+	font-size: $font-size-m;
+	margin-bottom: $default-spacing;
+}
+
+li {
+	&:before {
+		content: '•';
+		color: $highlight-color;
+		padding-right: 5px;
+	}
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
+
+.max-width {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.main {
+	padding-bottom: calc($double-spacing * 3);
+}
+
+.content {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	padding-right: 45px;
+	margin-top: 45px;
+
+	.body {
+		background-color: #FFFFFF;
+		background-color: rgba(255, 255, 255, .3);
+		border: 2px solid $border-color;
+		border-radius: 5px;
+		padding: 20px;
+	}
 }
