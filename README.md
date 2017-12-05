@@ -10,13 +10,13 @@ The master branch automatically gets deployed to: [promink-nl.netlify.com](https
 
 This project requires [Node.js](http://nodejs.org/) (>= v8) and [npm](https://npmjs.org/) (comes with Node).
 
-Install dependencies with npm:
+Install dependencies with `npm`:
 
     $ npm install
 
 Start production build:
 
-    $npm start
+    $ npm start
 
 Starting development server and HTML/SCSS watchers:
 
