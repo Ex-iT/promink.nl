@@ -1,7 +1,10 @@
 module.exports = {
 	home: {
-		title: 'Home',
-		body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam temporibus provident voluptatem architecto nesciunt eaque delectus facilis distinctio nostrum magnam illo, dolorum iure, in excepturi alias ducimus velit inventore! Corporis!Ipsam libero, iusto ea aspernatur dolorem illo optio laborum nobis quod, maiores maxime, earum ducimus suscipit minus modi ullam? Tempore, praesentium harum. Reiciendis nemo praesentium temporibus eius incidunt aut cupiditate?Debitis quo quasi voluptate, enim doloremque ut ratione voluptatem harum itaque neque in libero, et quis recusandae! Quibusdam, repellendus saepe. Numquam, fuga aliquid. Dolorum excepturi hic nulla mollitia modi facilis.Ipsam asperiores assumenda sit ea et aliquid consectetur perferendis explicabo debitis corrupti nihil minus deserunt, officia, itaque iste? Rerum esse, id magnam eaque dolorum cumque asperiores autem non eos aperiam!Facilis, id libero. Voluptates ducimus rem at voluptatem inventore eaque distinctio porro eligendi incidunt! Atque magnam dolorum nobis blanditiis reprehenderit velit deserunt, eligendi qui, harum earum enim maiores iste. Odit.Perspiciatis iste error repudiandae nihil deleniti. Explicabo harum error nesciunt ipsa qui sunt dolorem voluptates iure vero dolores dolore modi perspiciatis quod tempora necessitatibus odit doloribus, quidem praesentium obcaecati. Nisi!Assumenda, officia! Facilis earum et porro, consequuntur tempora atque? Deleniti laborum totam ad. Corporis accusantium ad alias temporibus id ullam mollitia dolorum labore, porro deserunt in pariatur beatae, iusto maiores!At cum tempora accusantium voluptatem, optio temporibus itaque facere, eligendi nostrum nam sint dolore. Explicabo iusto facere molestiae laborum dicta mollitia, fugit possimus pariatur? Sunt deleniti neque esse quod molestias.Quasi sapiente odit deserunt? Atque aspernatur cupiditate nisi praesentium modi laudantium voluptate maiores harum quos consequatur porro cum repellendus quam alias, blanditiis labore cumque necessitatibus delectus eligendi, laborum quis similique?Molestias optio libero, obcaecati officia totam architecto iure fugiat non eligendi delectus laboriosam beatae dolores corrupti. Saepe mollitia ducimus architecto rerum, optio qui libero veritatis necessitatibus blanditiis culpa eos deserunt!Reprehenderit aperiam quasi, eveniet eligendi aliquam minus distinctio culpa alias. Laboriosam sint impedit maxime nihil vel quas amet nostrum labore delectus commodi necessitatibus debitis tempora, ipsam eos! Fuga, earum id.Animi alias velit nisi itaque eum laborum soluta repudiandae sequi nam amet obcaecati eaque maiores eos eveniet ad, natus recusandae pariatur cumque excepturi ab nulla. Veniam vero quo voluptatibus ea?Quod dolorem nesciunt ipsum. Temporibus, nam laboriosam odio sapiente architecto ab ex optio blanditiis consequuntur aliquam nobis aperiam nesciunt aspernatur! Inventore excepturi saepe iure ut sapiente illo modi quas culpa.Maiores exercitationem labore veniam rerum esse explicabo cum, sapiente nemo sequi ad ducimus aperiam. Eaque, maiores eveniet saepe earum voluptate, atque illum tenetur error totam fuga ratione similique iure quibusdam.Repellat odit ad odio dolore maxime nam numquam porro sed saepe rerum repellendus tempora, nostrum vitae dolores dolorum fuga. Ipsa quaerat consequuntur mollitia reprehenderit reiciendis explicabo dolores dicta soluta minus!Quos commodi in necessitatibus dignissimos, perferendis doloremque voluptate obcaecati unde possimus inventore corrupti quasi, aliquid facere illo dicta reiciendis nesciunt temporibus quibusdam aliquam facilis earum. Quo excepturi adipisci corporis explicabo!Magnam optio delectus amet, excepturi doloribus alias autem eveniet quas accusamus iure, velit consectetur aspernatur! Delectus, culpa, reiciendis eveniet a recusandae eum itaque nobis saepe numquam dolor nisi dolore inventore?Quae, temporibus! Quo molestias voluptatum, praesentium vero soluta alias distinctio consectetur adipisci, omnis nesciunt iste explicabo quibusdam maxime est libero eius assumenda quia fuga dignissimos. Laboriosam deserunt quas voluptate. Laborum.Qui ex est maiores temporibus, laboriosam tempora quos accusamus quasi mollitia nam, excepturi voluptatum iste eius consequuntur quod maxime dolores ipsum a! Iure eum animi fugiat corporis minus sequi facere.Error saepe odio hic quia voluptatum quas mollitia recusandae nobis sint cupiditate illo animi, necessitatibus vero explicabo aliquam atque magnam libero eveniet dignissimos aut facilis consequatur provident id vel. Aspernatur?',
+		title: 'Promink Seniorenverhuizing',
+		body: '',
+		backgroundImage: 'truck.png',
+		backgroundPosition: 'center bottom',
+		backgroundSize: 'contain',
 		meta: {
 			keywords: 'Verhuizing, geplande verhuizing, seniorenverhuizing, ontruiming, ondersteuning',
 			description: 'Promink Seniorenverhuizing - Van huis naar thuis.'
@@ -10,11 +13,21 @@ module.exports = {
 	pages: [
 		{
 			title: 'Persoonlijke begeleiding',
-			body: '<ul><li>Kleine of grote verhuizing, het blijft persoonlijk..</li></ul>'
+			body: '<ul><li>Kleine of grote verhuizing, het blijft persoonlijk..</li></ul>',
+			backgroundImage: 'pb.png',
+			backgroundPosition: 'right bottom',
+			backgroundSize: 'auto',
+			meta: {
+				keywords: 'Verhuizing, geplande verhuizing, seniorenverhuizing, ontruiming, ondersteuning',
+				description: 'Promink Seniorenverhuizing - Van huis naar huis.'
+			}
 		},
 		{
 			title: 'Diensten op maat',
-			body: '2343222424',
+			body: '',
+			backgroundImage: 'dom.png',
+			backgroundPosition: 'center center',
+			backgroundSize: 'auto',
 			meta: {
 				keywords: 'Verhuizing, geplande verhuizing, seniorenverhuizing, ontruiming, ondersteuning',
 				description: 'Promink Seniorenverhuizing - Van huis naar huis.'
@@ -22,15 +35,18 @@ module.exports = {
 		},
 		{
 			title: 'Opruimen oude huis',
-			body: '2343222424',
+			body: 'Alles wordt zorgvuldig ingepakt en vervoerd. <br>...Uw oude huis wordt schoon achtergelaten.<br><br>Na selectie van inventaris door de familie, wordt de overige inventaris stroom gesorteerd volgens de gescheiden afval richtlijnen.<br><br>Er wordt zorg voor gedragen dat zoveel mogelijk producten weereen goede bestemming krijgen.<br><br>Maatschappelijke betrokkenheid is een van de missies van Promink',
+			backgroundImage: 'ooh.png',
+			backgroundPosition: 'right bottom',
+			backgroundSize: 'auto',
 			meta: {
 				keywords: 'Verhuizing, geplande verhuizing, seniorenverhuizing, ontruiming, ondersteuning',
 				description: 'Promink Seniorenverhuizing - Van huis naar huis.'
 			}
 		},
 		{
-			title: 'ontruiming appartement met spoed?',
-			body: '2343222424',
+			title: 'Ontruiming appartement met spoed?',
+			body: '<img src="/assets/images/oams.jpg" alt=""><h4>Promink neemt uw zorgen uit handen en regelt alles!</h4><br><h4>Inleiding</h4><p>Veel verzorginghuizen hanteren, met betrekking tot ontruiming van een appartement, de richtlijnen dat het ontruimen van een appartement binnen 2 dagen (= 48) uur is afgerond.</p><p>Door persoonlijke omstandigheden is het mogelijk dat een cliënt op zeer korte termijn het appartement moet verlaten.<br>Maar ook na het overlijden van een dierbare zou u graag de aandacht graag even op iets anders willen richten dan het zo snel mogelijk opruimen van het achtergebleven appartement.</p><h4>Verhuizen is emotie</h4><p>Promink biedt daarom een compleet arrangement aan om het appartement, binnen de afgesproken periode met de opdrachtgever, leeg en veegschoon op te leveren, zodat u hier geen zorgen over heeft. U kunt uw aandacht richten op uw eigen of andere problemen en zorgen.</p><p>Om u en uw naasten zoveel mogelijk op een efficiënte manier te bedienen heeft Promink de krach-ten gebundeld met collega ondernemers. Allen hebben affiniteit met de zorg  en begrip voor uw situatie. Aangezien Promink voor kwaliteit gaat, wordt er zorgvuldig en discreet met de cliënt, het appartement en de inventaris omgegaan.<br>Promink werkt onder anderen samen met Dijkstra Transport en Verhuizingen, de Kringloopwinkel Samsam, Kolibri totaal interieur en de Ouderen Winkel.</p><h4>Verhuizen is een vak</h4><p>Als de datum van oplevering is vastgesteld wordt de familie in de gelegenheid gesteld om de inventaris mee te nemen; het bruikbare restant gaat naar de kringloop.</p><p>Dat wat daarna nog over-blijft wordt in dozen verpakt en door Dijkstra transport naar de afvalverwerking gebracht.</p><p>Chemisch afval en glas wordt gescheiden afgevoerd.</p><p>De wanden worden spijkervrij gemaakt en de vloer-bedekking indien gewenst verwijderd.</p><p>Promink organiseert en coördineert de werkzaamheden met u en de samenwerkende partijen.<br>Promink is uw aanspreekpunt voor alle vragen en verzoeken.<br>De kosten worden bepaald door de intensiteit van de werkzaamheden. De samenwerkende partijen brengen zelf een offerte naar u uit.<br>De factuur gaat naar de opdrachtgever.<br>Het akkoord moet altijd schriftelijk bevestigd worden.<br>Voor  de afvalverwerking van dat wat overblijft wordt een prijs per kilogram gehanteerd.</p><h4>Dienstverlening</h4><p>Promink en haar partners hebben de wens om u zoveel als mogelijk bij te staan. Kwaliteit met zorg en aandacht zijn de speerpunten van onze dienstverlening. Wij hopen u hiermee van dienst te kunnen zijn en u op deze manier te ontlasten in een toch al moeilijke periode waarin u of uw cliënt zich bevindt.</p><p>Voor vragen of een passende offerte kunt u ook bellen met Promink:<br>Minke van Thiel, telefoon 035-7721052 of mobiel 0620017656.</p>',
 			special: true,
 			meta: {
 				keywords: 'Verhuizing, geplande verhuizing, seniorenverhuizing, ontruiming, ondersteuning',
@@ -39,7 +55,10 @@ module.exports = {
 		},
 		{
 			title: 'Inrichten nieuwe huis',
-			body: '2343222424',
+			body: '',
+			backgroundImage: 'inh.png',
+			backgroundPosition: 'right top',
+			backgroundSize: 'auto',
 			meta: {
 				keywords: 'Verhuizing, geplande verhuizing, seniorenverhuizing, ontruiming, ondersteuning',
 				description: 'Promink Seniorenverhuizing - Van huis naar huis.'
@@ -47,7 +66,7 @@ module.exports = {
 		},
 		{
 			title: 'Technische ondersteuning',
-			body: '<ul><li>Schilderen, behangen, stofferen, lampen en schilderijen ophangen.</li></ul>',
+			body: '<ul><li>Schilderen,</li><li>behangen,</li><li>stofferen,</li><li>lampen</li><li>...en schilderijen ophangen.</li></ul>',
 			meta: {
 				keywords: 'Verhuizing, geplande verhuizing, seniorenverhuizing, ontruiming, ondersteuning',
 				description: 'Promink Seniorenverhuizing - Van huis naar huis.'

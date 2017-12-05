@@ -5,7 +5,11 @@
 
 {% block content -%}
 <section class="content">
-	<article class="body">
+	<article class="body" {% if home.backgroundImage %}
+			style="background-size: {{ home.backgroundSize }};
+				background-position: {{ home.backgroundPosition }};
+				background-image: url({{ baseUrl }}assets/images/{{ home.backgroundImage }});"
+		{% endif %}>
 		<h3>{{ home.title | safe }}</h3>
 		{{ home.body | safe }}
 	</article>
